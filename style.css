@@ -1,0 +1,121 @@
+@import url('https://fonts.google.com/specimen/Lexend+Deca');
+@import url('https://fonts.google.com/specimen/Big+Shoulders+Display');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: hsl(0, 0%, 95%);
+  font-family: 'lexend-Deca', sans-serif;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'big shoulders display', cursive;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+main {
+  display: Flex;
+  flex-direction: row;
+  margin: auto;
+  padding: 10px;
+  width: 60%;
+  max-width: 1440%;
+  justify-content: center;
+  line-height: 21px;
+  text-align: center;
+  font-weight: 400%;
+  font-size: 20px;
+  background-color: hsla(0, 0%, 100%, 0.75);
+}
+@media screen and (max-width: 1440px) {
+  .main {width: 100%;}
+}
+@media only screen and (max-width: 375px) {
+  /* For mobile phones: */
+  .main {
+    width: 50%;}
+  }
+#sedans {
+  background-color: hsl(31, 77%, 52%);
+  text-align: left;
+  padding: 50px;
+}
+
+#suvs {
+  background-color: hsl(184, 100%, 22%);
+  text-align: left;
+  padding: 50px;
+}
+
+#luxury {
+  background-color: hsl(179, 100%, 13%);
+  text-align: left;
+  padding: 50px;
+}
+
+#sedansbtn {
+  border: solid;
+  border-radius: 60px;
+  border-width: 2px;
+  border-color: hsl(0, 0%, 95%);
+  width: 100px;
+  height: 50px;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color: hsl(31, 77%, 52%);
+}
+
+#suvsbtn {
+  border: solid;
+  border-radius: 50px;
+  border-width: 2px;
+  border-color: hsl(0, 0%, 95%);
+  width: 100px;
+  height: 50px;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color: hsl(184, 100%, 22%);
+}
+
+#luxurybtn {
+  border: solid;
+  border-radius: 60px;
+  border-width: 2px;
+  border-color: hsl(0, 0%, 95%);
+  width: 100px;
+  height: 50px;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color: hsl(179, 100%, 13%);
+
+
+}
